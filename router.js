@@ -11,7 +11,7 @@ module.exports = function(app){
   app.use('/robots', robotRouter);
 
   profileRouter.get('/:id', controllers.robotProfile);
-  app.use('/progile', profileRouter);
+  app.use('/profile', profileRouter);
 };
 
 
